@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#034B85"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:id="@+id/layout_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/view_stuff_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/edit_stuff_btn"
+            android:layout_toStartOf="@+id/edit_stuff_btn"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textColor="#F2F4F5"/>
+
+        <ImageButton
+            android:id="@+id/delete_stuff_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/delete_button_desc"
+            android:background="@android:drawable/ic_menu_delete"/>
+
+        <ImageButton
+            android:id="@+id/edit_stuff_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toStartOf="@+id/delete_stuff_btn"
+            android:layout_toLeftOf="@id/delete_stuff_btn"
+            android:background="@android:drawable/ic_menu_edit"
+            android:contentDescription="@string/edit_button_desc" />
+
+        <TextView
+            android:id="@+id/view_stuff_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_stuff_name"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="#F2F4F5"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/layout_item"
+        android:background="#000000" />
+</RelativeLayout>

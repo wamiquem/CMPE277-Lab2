@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Remember My Stuff</string>
+    <string name="action_add">Add a Stuff</string>
+    <string name="activity_all_stuffs">All Stuffs</string>
+    <string name="activity_add_stuff">Add Stuff</string>
+    <string name="prompt_stuff_name">Enter Stuff Name</string>
+    <string name="prompt_stuff_location">Enter Stuff Location</string>
+    <string name="button_add_stuff">Add Stuff</string>
+    <string name="delete_button_desc">Delete the Stuff</string>
+    <string name="edit_button_desc">Edit the Stuff</string>
+    <string name="button_cancel_submit">Cancel</string>
+</resources>
