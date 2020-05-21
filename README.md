@@ -1,5 +1,5 @@
 # CMPE277-Lab2
-A simple android app "Remember My Stuff" to store location of items for easy and quick future retreival.
+A simple android app "Remember My Stuff" to store location of items for easy and quick future retreival for lab2 of the Smartphone App Development Course.
 
 # App Name: Remember My Stuff
 
